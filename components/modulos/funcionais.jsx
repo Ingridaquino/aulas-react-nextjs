@@ -30,4 +30,15 @@ export const Comp6 = () => (
     </div>
 )
 
+const Comp7 = (props) => {
+    return(
+        <div>
+            <h4>Comp #7 - {props.msg}</h4>
+        </div>
+    )
+}
 
+
+export {
+    Comp7
+}
